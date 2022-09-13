@@ -1,6 +1,7 @@
 When the machine is started, you'll get this image. Not much here so the next best thing is to look at the page source.
 ![image](https://user-images.githubusercontent.com/113462727/189967418-15b4b54e-fbc0-4c91-869c-8246bb95c9b3.png)
 
+
 Right-click and choose **View Page Source**
 ![image](https://user-images.githubusercontent.com/113462727/189967774-9a161ed1-3cb8-4ebe-8ea8-594d2e574451.png)
 
