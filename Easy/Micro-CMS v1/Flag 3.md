@@ -10,6 +10,7 @@ You'll need to create a page and throw a script in the body of the page. Don't f
 
 ![image](https://user-images.githubusercontent.com/113462727/194420611-0963b4b7-3b0f-44b8-b970-e1456cb7ed82.png)
 
+Once you back back to the page, you'll see the flag pops up in a JavaScript alert. A classic cross site scripting vulnerability.
 
-
+![image](https://user-images.githubusercontent.com/113462727/194420930-1843b0a7-5d56-46c5-b19f-c76c8989d5ca.png)
 
