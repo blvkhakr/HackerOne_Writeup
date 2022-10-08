@@ -33,9 +33,12 @@ We find the unhash is 3, which was the user id of our current user. Hash the num
 
 NOTE: Don't forget to save the cookie as the new hash. It won't work if you don't.
 
-Once the cookie is changed and saved, click home and you should get the following because you're now the admin.
+Once the cookie is changed and saved, click home and you should get the following because you're now the admi and flag is at the top of the page.
 
 ![image](https://user-images.githubusercontent.com/113462727/194707549-d949570f-b9d9-4fe9-97a1-bc5cf1a6c9e5.png)
+
+![image](https://user-images.githubusercontent.com/113462727/194707659-ddf1da97-bcaf-4a24-8c73-923e0f2ca64a.png)
+
 
 
 
