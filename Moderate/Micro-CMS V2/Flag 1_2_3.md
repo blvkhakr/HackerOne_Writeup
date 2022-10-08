@@ -34,5 +34,15 @@ You should see the tables now. You can search all of them but the only table tha
 Now you want to look at the tables in Level2 so run the following command: **sqlmap -r <request_txt_file> -D level2 --tables**
 
 Viola! Tables
+
 ![image](https://user-images.githubusercontent.com/113462727/194682960-e1f5d519-288c-478d-96e5-031959ec72b2.png)
+
+
+So the next thing I want I want to do is dump those tables. Admin must be holding all the credentials and pages must be holding all the pages, meaning the hidden page is in there as well (if you've been searching around you would've seen this.) So to dump the tables (there's a more elegant way of doing this if an application has more than one table, but knowing there aren't that many tables or that much information for this application I used the following command to dump both tables:  **sqlmap -r <request_txt_file> -D level2 --tables -dump**
+
+
+We're able to see the hidden page 3 and there's a flag. Looks like we also have the user/password for the admin login as well
+
+
+![image](https://user-images.githubusercontent.com/113462727/194683808-adc2bbeb-0e0e-4fc8-a5e1-46376aa76213.png)
 
