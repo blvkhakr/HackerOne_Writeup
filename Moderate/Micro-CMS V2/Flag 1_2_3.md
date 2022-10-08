@@ -46,3 +46,19 @@ We're able to see the hidden page 3 and there's a flag. Looks like we also have 
 
 ![image](https://user-images.githubusercontent.com/113462727/194683808-adc2bbeb-0e0e-4fc8-a5e1-46376aa76213.png)
 
+Once we log in w/ the creds found from the admin table, you'll get a flag.
+
+![image](https://user-images.githubusercontent.com/113462727/194683900-7704fbfa-529d-457a-b8c8-3afe73617d54.png)
+
+Now we just have one more flag left. To get this last flag I send a POST request to the edit page to bypass authorization. Edit seems to be deemed only to authenticated users, seeing that the admin is the only person on the page, they're the only ones who can edit the page. I go to edit a page, capture the request and send it to repeater
+
+![image](https://user-images.githubusercontent.com/113462727/194684481-60f13a08-1645-46a5-afa9-9cf965a86929.png)
+
+From there, I change the **GET** method to a **POST** and receive the last flag.
+
+![image](https://user-images.githubusercontent.com/113462727/194684611-f732907c-e4a8-43c9-b45c-e26dbd8e011e.png)
+
+
+
+
+
