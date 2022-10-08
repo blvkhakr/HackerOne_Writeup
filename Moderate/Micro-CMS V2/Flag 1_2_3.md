@@ -1,3 +1,6 @@
+Heads up!!! The method I'm going to use here is actually a huge cheat to this challenge. It would be best to use a combination of UNION attacks for Flag0, a call using curl for Flag1 and sqlmap for Flag2. I used SQLmap and got way mroe than I bargained for so if you want to see that method, keep reading on.
+
+
 So we're back on the CMS page and see that they've made some changes. Again we're anti on the Index starting at 0 and chose to do 1 instead. Meaning on HackerOne this Flag is actually Flag0 and not 1.
 
 ![image](https://user-images.githubusercontent.com/113462727/194677573-ab4a4687-c872-4ccc-bb75-4a06e2e151e8.png)
@@ -25,8 +28,11 @@ NOTE: your command may look a little different from mine but it's some variation
 
 
 You should see the tables now. You can search all of them but the only table that actually matters is **level2**
-![image](https://user-images.githubusercontent.com/113462727/194682870-1a4a158d-164d-4d90-956b-105c9a6f6868.png)
+![image](https://user-images.githubusercontent.com/113462727/194683010-9bdb4edb-6101-4e4c-8ae9-7626b1e4b40d.png)
 
 
+Now you want to look at the tables in Level2 so run the following command: **sqlmap -r <request_txt_file> -D level2 --tables**
 
+Viola! Tables
+![image](https://user-images.githubusercontent.com/113462727/194682960-e1f5d519-288c-478d-96e5-031959ec72b2.png)
 
